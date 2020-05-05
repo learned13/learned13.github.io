@@ -17,8 +17,6 @@ var percent;
 
 function getScrollPercent() {
     percent = window.pageYOffset / document.body.scrollHeight;
-	document.getElementById("perc").innerHTML = percent;
-	
 }
 
 window.addEventListener("scroll", getScrollPercent);
@@ -51,7 +49,6 @@ function percentCheck() {
 		var y7 = -45*Math.cos((Math.PI/30)*a + (6*Math.PI/3.5))+50;
 		
 		document.getElementById("square_animation").style.backgroundPosition = x1+"% "+y1+"%,"+x2+"% "+y2+"%,"+x3+"% "+y3+"%,"+x4+"% "+y4+"%,"+x5+"% "+y5+"%,"+x6+"% "+y6+"%,"+x7+"% "+y7+"%";
-		document.getElementById("sec").innerHTML = a;
 	}
 }
 
