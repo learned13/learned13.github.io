@@ -1,0 +1,320 @@
+ * {
+	box-sizing: border-box; 
+	margin: 0px;
+	overflow-x: hidden;
+ }
+ 
+ html {
+	 background-color: black;
+ }
+
+ .full {
+	 height: 100vh;
+	 width: 100vw;
+	 margin: 0px;
+	 overflow-y: hidden;
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 justify-content: center;
+	 align-content: center;
+ }
+ 
+ #sky {
+	 background-image: url("Night Sky Landscape/sky.jpg");
+	 background-position: center;
+	 background-size: cover;
+	 overflow-y: hidden;
+	 background-attachment: fixed;
+ }
+ 
+ #landscape {
+	 width: 100%;
+	 height: calc(50vh + 28.125vw);
+	 overflow-y: hidden;
+	 position: relative;
+ }
+ h1 {
+	 text-align: center;
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-weight: bold;
+	 letter-spacing: -1vw;
+ }
+ #title1 {
+	 color: hsl(0, 0%, 65%);
+	 font-size: 31vw;
+	 top: calc(50vh - 9vw);
+ }
+ #title2 {
+	 color: hsl(0, 0%, 72%);
+	 font-size: 30.9vw;
+	 top: calc(50vh - 9.05vw);
+ }
+ #title3 {
+	 color: hsl(0, 0%, 74%);
+	 font-size: 30.8vw;
+	 top: calc(50vh - 9.1vw);
+ }
+ #title4 {
+	 color: hsl(0, 0%, 76%);
+	 font-size: 30.7vw;
+	 top: calc(50vh - 9.15vw);
+ }
+ #title5 {
+	 color: hsl(0, 0%, 78%);
+	 font-size: 30.6vw;
+	 top: calc(50vh - 9.2vw);
+ }
+ #title6 {
+	 color: hsl(0, 0%, 80%);
+	 font-size: 30.5vw;
+	 top: calc(50vh - 9.25vw);
+ }
+ #title7 {
+	 color: hsl(0, 0%, 82%);
+	 font-size: 30.4vw;
+	 top: calc(50vh - 9.3vw);
+ }
+ #title8 {
+	 color: hsl(0, 0%, 84%);
+	 font-size: 30.3vw;
+	 top: calc(50vh - 9.35vw);
+ }
+ #title9 {
+	 color: hsl(0, 0%, 86%);
+	 font-size: 30.2vw;
+	 top: calc(50vh - 9.4vw);
+ }
+ #title10 {
+	 color: hsl(0, 0%, 88%);
+	 font-size: 30.1vw;
+	 top: calc(50vh - 9.45vw);
+ }
+ #title11 {
+	 color: hsl(0, 0%, 90%);
+	 font-size: 30vw;
+	 top: calc(50vh - 9.5vw)
+ }
+ #title12 {
+	 color: hsl(0, 0%, 92%);
+	 font-size: 29.9vw;
+	 top: calc(50vh - 9.55vw);
+ }
+ #title13 {
+	 color: hsl(0, 0%, 94%);
+	 font-size: 29.8vw;
+	 top: calc(50vh - 9.6vw);
+ }
+ #title14 {
+	 color: hsl(0, 0%, 96%);
+	 font-size: 29.7vw;
+	 top: calc(50vh - 9.65vw);
+ }
+ #title15 {
+	 color: hsl(0, 0%, 98%);
+	 font-size: 29.6vw;
+	 top: calc(50vh - 9.7vw);
+ }
+ #title16 {
+	 color: hsl(0, 0%, 100%);
+	 font-size: 29.5vw;
+	 top: calc(50vh - 9.75vw);
+	 text-shadow: 0px 0px 10px white;
+ }
+.padding{
+	 width: 100%;
+	 height: calc(50vh - 28.125vw);
+ }
+ 
+ #black {
+	 background-color: black;
+ }
+ 
+ .parallax {
+	 width: 100%;
+	 height: 56.25vw;
+	 background-size: contain;
+	 background-position: bottom center;
+	 position: absolute;
+	 top: calc(50vh - 24.5vw);
+	 background-repeat: no-repeat;
+ }
+ #trees5 {
+	 background-image: url("Night Sky Landscape/trees5.png");
+ }
+ #trees4 {
+	 background-image: url("Night Sky Landscape/trees4.png");
+ }
+ #trees3 {
+	 background-image: url("Night Sky Landscape/trees3.png");
+ }
+ #trees2 {
+	 background-image: url("Night Sky Landscape/trees2.png");
+ }
+ #trees1 {
+	 background-image: url("Night Sky Landscape/trees1.png");
+ }
+ #mountain5 {
+	 background-image: url("Night Sky Landscape/mountain5.png");
+ }
+ #mountain4 {
+	 background-image: url("Night Sky Landscape/mountain4.png");
+ }
+ #mountain3 {
+	 background-image: url("Night Sky Landscape/mountain3.png");
+ }
+ #mountain2 {
+	 background-image: url("Night Sky Landscape/mountain2.png");
+ }
+ #mountain1 {
+	 background-image: url("Night Sky Landscape/mountain1.png");
+ }
+ #moon {
+	 background-image: url("Night Sky Landscape/moon.png");
+	 background-position: top center;
+	 width: 100vw;
+	 height: 15vw;
+ }
+ 
+ @media only screen and (min-aspect-ratio: 16/9) {
+	iframe {
+		width: 142.2vh;
+		height: 80vh;
+	}
+	h6 {
+		font-size: 8vh;
+	}
+ }
+ @media only screen and (max-aspect-ratio: 16/9) {
+	iframe {
+		width: 80vw;
+		height: 45vw;
+	}
+	h6 {
+		font-size: 4.5vw;
+	}
+ }
+ 
+ .fame {
+	height: 50%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+ }
+ 
+ #chris {
+	
+ }
+ 
+ #stew {
+	justify-content: flex-end; 
+ }
+ 
+ .head {
+	height: 90%;
+	width: 40%;
+	object-fit: contain;
+	padding-left: 5%;
+	padding-right: 5%;
+	border-style: offset;
+	border-width: thick;
+ }
+ 
+ 
+ #square_animation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-image: url("Laurels/austin_white.png"), url("Laurels/filmmatic_white.png"), url("Laurels/newMedia_white.png"),url("Laurels/prisma_white.png"),url("Laurels/redComp_white.png"),url("Laurels/yucca_white.png"),url("Laurels/global_white.png");
+	background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+	background-size: 25% 15%,25% 16.5%,25% 12.5%,25% 23%,25% 13%,25% 13%,25% 15%;
+	background-position: 50% 5%, 88.96% 27.48%, 88.96% 72.52%, 50% 95%, 11.04% 72.52%, 11.04% 27.48%, 0% 0%;
+ }
+ 
+ .download {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+ }
+ 
+ #pdf {
+	 height: 100%;
+	 width: 100%;
+	 object-fit: contain;
+ }
+ 
+ p {
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: justify;
+	color: white;
+	font-family: sans-serif;
+ }
+ 
+ @media only screen and (orientation: landscape) {
+	 p, summary {
+		 font-size: 4vh;
+	 }
+	 .download {
+		 width: 9vh;
+		 height: 12vh;
+	 }
+	 h5 {
+		 font-size: 2.2vh;
+	 }
+	 #square_animation {
+		 width: 100vh;
+		 height: 100vh;
+	 }
+ }
+ 
+ @media only screen and (orientation: portrait) {
+	 p, summary {
+		 font-size: 4vw;
+	 }
+	 .download {
+		 width: 9vw;
+		 height: 12vw;
+	 }
+	 h5 {
+		 font-size: 2.2vw;
+	 }
+	 #square_animation {
+		 width: 100vw;
+		 height: 100vw;
+	 }
+ }
+ h5 {
+	 color: white;
+	 text-align: center;
+	 padding-top: 5px;
+ }
+ 
+ summary {
+	 text-align: center;
+	 color: white;
+	 outline: none;
+ }
+ a {
+	 text-decoration: none;
+ }
+ a:link {
+	 color: deepskyblue;
+ }
+ a:visited {
+	 color: dodgerblue;
+ }
+ a:hover {
+	 color: lightbluesky;
+	 text-shadow: 0px 0px 3px snow;
+ }
+ a:active {
+	 color: blue;
+	 text-shadow: 0px 0px 3px snow;
+ }
+
+ #dirt {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)), url("dirt_pattern.png");
+	background-size: 100% 100%, 43vw 43vw;
+ }
