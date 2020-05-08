@@ -58,4 +58,10 @@ function percentCheck() {
 		document.getElementById("square_animation").style.backgroundPosition = x1+"% "+y1+"%,"+x2+"% "+y2+"%,"+x3+"% "+y3+"%,"+x4+"% "+y4+"%,"+x5+"% "+y5+"%,"+x6+"% "+y6+"%,"+x7+"% "+y7+"%";
 	}
 }
-
+var FavTime = setInterval(favi, 1000);
+function favi() {
+	var d = new Date();
+	var s = d.getSeconds();
+	var i = s % 12;
+	document.getElementById("favicon").href = "favicons/" + i + ".svg";
+}
