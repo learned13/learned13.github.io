@@ -26,7 +26,7 @@ if(isMobileDevice()){
 	var air = document.getElementById("landscape");
 	air.classList.add("parallax");
 	air.id = m_sky;
-}
+};
 
 window.addEventListener("scroll", getScrollPercent);
 window.addEventListener("resize", function(){
