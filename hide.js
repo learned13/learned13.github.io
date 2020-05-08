@@ -22,7 +22,11 @@ function getScrollPercent() {
 function isMobileDevice() {
     return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
 };
-
+if(isMobileDevice()){
+	var air = document.getElementById("landscape");
+	air.classList.add("parallax");
+	air.id = m_sky;
+}
 
 window.addEventListener("scroll", getScrollPercent);
 window.addEventListener("resize", function(){

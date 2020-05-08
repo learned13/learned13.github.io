@@ -28,6 +28,16 @@
 	 background-attachment: fixed;
  }
  
+ #m_sky {
+	 background-image: url("Night Sky Landscape/m_sky.jpg");
+	 background-position: center;
+	 background-size: cover;
+	 width: 100%;
+	 height: calc(50vh + 28.125vw);
+	 overflow-y: hidden;
+	 position: relative;
+ }
+ 
  #landscape {
 	 width: 100%;
 	 height: calc(50vh + 28.125vw);
