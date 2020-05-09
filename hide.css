@@ -30,12 +30,8 @@
  
  #m_sky {
 	 background-image: url("Night Sky Landscape/m_sky.jpg");
-	 background-position: center;
+	 height: 100%;
 	 background-size: cover;
-	 width: 100%;
-	 height: calc(50vh + 28.125vw);
-	 overflow-y: hidden;
-	 position: relative;
  }
  
  #landscape {

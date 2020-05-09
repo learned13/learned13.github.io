@@ -21,12 +21,7 @@ function getScrollPercent() {
 
 function isMobileDevice() {
     return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
-};
-if(isMobileDevice()){
-	var air = document.getElementById("landscape");
-	air.classList.add("parallax");
-	air.id = m_sky;
-};
+}
 
 window.addEventListener("scroll", getScrollPercent);
 window.addEventListener("resize", function(){
@@ -68,4 +63,7 @@ function favi() {
 	var s = d.getSeconds();
 	var i = s % 12;
 	document.getElementById("favicon").href = "favicons/" + i + ".svg";
+}
+if(isMobileDevice()){
+	document.getElementById("m_sky").visibility = visible;
 }
