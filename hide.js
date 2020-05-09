@@ -64,6 +64,3 @@ function favi() {
 	var i = s % 12;
 	document.getElementById("favicon").href = "favicons/" + i + ".svg";
 }
-if(!isMobileDevice()){
-	document.getElementById("m_sky").style.display = none;
-}
