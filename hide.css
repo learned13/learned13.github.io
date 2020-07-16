@@ -293,8 +293,9 @@
  
  summary {
 	 text-align: center;
-	 color: white;
+	 color: deepskyblue;
 	 outline: none;
+	 font-family: sans-serif;
  }
  a {
 	 text-decoration: none;
